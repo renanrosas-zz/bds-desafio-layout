@@ -1,0 +1,80 @@
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86px;
+    border-radius: 10px;
+    background-color:#EDEDED ;
+}
+
+.search-container input {
+    border-radius: 5px 0 0 5px;
+    height: 40px;
+    border: #FFF;
+}
+
+.search-container input ::placeholder{
+    font-size: 14px;
+}
+
+.btn-icon {
+    height: 40px;
+    background-color: #00285F;
+}
+
+.btn-icon h6{
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.btn-container button {
+    border-radius: 0 5px 5px 0;
+}
+
+@media (min-width: 576px){
+
+    .btn-container {
+        width: 528px;
+        height: 123px;
+    }
+
+    .search-container input[type=text] {
+        width: 320px;
+    }
+
+    .btn-container button {
+        width: 174px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .btn-container {
+        width: 708px;
+        margin-right: 20px;
+    }
+
+    .search-container input[type=text] {
+        width: 516px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .btn-container {
+        width: 935px;
+    }
+
+    .search-container input[type=text] {
+        width: 584px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .btn-container {
+        width: 1059px;
+        margin: 30px 20px 0 30px;  
+    }
+}
+
